@@ -2,6 +2,9 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./styles/style.css">
@@ -11,18 +14,38 @@
   </head>
   <body>
 
-    <div class="sidebar">
+    <div class="parent">
 
-      <div class="sidebar-pos">
-        <div class="img">
-          <img src="./jarvis.jpg" alt="Jarvis">
+      <div class="sidebar">
+
+        <div class="sidebar-pos">
+          <div class="img-sidebar">
+            <img src="./jarvis.jpg" alt="Jarvis">
+          </div>
+    
+          <div class="menu">
+            <a class="selected" href="#">Sobre</a>
+            <a href="#">Experiência</a>
+            <a href="#">Educação</a>
+          </div>
         </div>
   
-        <div class="menu">
-          <a href="#">Sobre</a>
-          <a href="#">Experiência</a>
-          <a href="#">Educação</a>
-        </div>
+      </div>
+  
+      <div class="content">
+
+        <section class="description">
+          <h2>Rodrigo <span>Rael</span></h2>
+          <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+          <div class="icons-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </section>
+
       </div>
 
     </div>
